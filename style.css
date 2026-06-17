@@ -140,6 +140,15 @@ img { max-width: 100%; display: block; }
   color: var(--primary);
   letter-spacing: -0.5px;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo-img {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -218,7 +227,9 @@ img { max-width: 100%; display: block; }
   justify-content: center;
 }
 
-.hero-logo svg {
+.hero-logo-img {
+  height: 80px;
+  width: auto;
   filter: drop-shadow(0 4px 12px rgba(26,86,219,0.2));
 }
 
@@ -341,8 +352,9 @@ img { max-width: 100%; display: block; }
   border-radius: 50px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   transition: var(--transition);
+  color: white;
 }
 
 .partner-badge:hover {
@@ -350,8 +362,8 @@ img { max-width: 100%; display: block; }
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.partner-icon {
-  font-size: 10px;
+.partner-badge svg {
+  flex-shrink: 0;
 }
 
 .avatar-placeholder {
