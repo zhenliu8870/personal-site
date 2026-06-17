@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张钰贤 AI 漫剧培训 | 零基础学 AI 视频创作 | 杭州幻流科技</title>
+  <meta name="description" content="杭州幻流数字科技旗下 AI 教育培训品牌，创始人张钰贤带你零基础掌握 AI 漫剧制作、AI Agent 开发、AI 视频生成。与 ChatGPT、Claude、DeepSeek、豆包、千问、智谱等大模型深度合作。" />
+  <meta name="keywords" content="AI培训,AI漫剧,AI视频生成,AI教育,张钰贤,杭州幻流科技,AI课程" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="assets/images/logo.png" alt="杭州幻流数字科技" class="nav-logo-img" />
+        杭州幻流数字科技
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">首页</a></li>
+        <li><a href="#about">创始人</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="#projects">作品</a></li>
+        <li><a href="#courses">课程</a></li>
+        <li><a href="#trial">免费试学</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 首页 Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="assets/images/logo.png" alt="杭州幻流数字科技 Logo" class="hero-logo-img" />
+      </div>
+      <h1 class="hero-name">AI赋能 · 智启未来</h1>
+      <p class="hero-title">张钰贤 · 杭州幻流数字科技有限公司创始人</p>
+      <p class="hero-desc">
+        深耕 AI 教育领域，与 ChatGPT、Claude、DeepSeek、豆包、千问、智谱等多家大模型深度合作，致力于让每个人都能用 AI 创造价值。
+      </p>
+      <div class="hero-tags">
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>AI 教育培训</span>
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>大模型应用</span>
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>AI 漫剧创作</span>
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>实战驱动</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#courses" class="btn btn-primary">查看课程 · 立即学习</a>
+        <a href="#trial" class="btn btn-outline">免费领取试学资料</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创始人 -->
+  <section class="section about" id="about">
+    <div class="container">
+      <h2 class="section-title">创始人</h2>
+      <p class="section-subtitle">AI 教育实践者 · 连续创业者</p>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <img
+            src="assets/images/杭州幻流数字科技有限公司宣传.png"
+            alt="杭州幻流数字科技有限公司宣传"
+            class="promo-poster"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text">
+          <h3><span class="highlight">张钰贤</span> — 杭州幻流数字科技创始人</h3>
+          <p>
+            山西吕梁人，毕业于山西传媒学院摄影专业。怀揣"让每个人都能用 AI 创作"的使命，创立杭州幻流数字科技有限公司，专注于 AI 创作教育领域。
+          </p>
+          <h4 class="philosophy-title">教育理念</h4>
+          <p class="philosophy-text">
+            "AI 不应是少数人的特权，而是每个人的创作伙伴。"我们坚持<strong>实战驱动、项目导向</strong>的教学方法，让学员在真实项目中掌握 AI 技能，学完就能产出属于自己的作品。
+          </p>
+          <h4 class="philosophy-title">行业背书</h4>
+          <p class="philosophy-text">
+            深度整合全球顶尖 AI 大模型资源，与多家平台建立合作关系，确保教学内容始终走在技术前沿。
+          </p>
+          <div class="partner-grid">
+            <div class="partner-badge" style="background:#10a37f;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z"/></svg>ChatGPT</div>
+            <div class="partner-badge" style="background:#d97706;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg>Claude</div>
+            <div class="partner-badge" style="background:#1a73e8;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M20.616 10.835a14.147 14.147 0 01-4.45-3.001 14.111 14.111 0 01-3.678-6.452.503.503 0 00-.975 0 14.134 14.134 0 01-3.679 6.452 14.155 14.155 0 01-4.45 3.001c-.65.28-1.318.505-2.002.678a.502.502 0 000 .975c.684.172 1.35.397 2.002.677a14.147 14.147 0 014.45 3.001 14.112 14.112 0 013.679 6.453.502.502 0 00.975 0c.172-.685.397-1.351.677-2.003a14.145 14.145 0 013.001-4.45 14.113 14.113 0 016.453-3.678.503.503 0 000-.975 13.245 13.245 0 01-2.003-.678z"/></svg>Gemini</div>
+            <div class="partner-badge" style="background:#0052d9;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.29 5.36L3.148 21.737a.215.215 0 00.203.261h8.29a.214.214 0 00.215-.261L7.7 5.359a.214.214 0 00-.41 0z" fill-opacity=".5"/><path clip-rule="evenodd" d="M4.553 16.18l-1.406 5.558a.214.214 0 00.203.261h2.42-4.551a.214.214 0 01-.214-.26l2.275-8.961a.214.214 0 01.409 0l.864 3.402z"/><path d="M14.44.15a.214.214 0 00-.41 0L8.366 21.739a.214.214 0 00.214.261H19.9a.214.214 0 00.215-.261L14.44.151z" fill-opacity=".5"/><path clip-rule="evenodd" d="M16.694 22h3.207a.215.215 0 00.214-.262l-1.839-6.993 1.164-4.592a.214.214 0 01.411 0l2.951 11.586a.214.214 0 01-.214.261h-5.894z"/><path d="M10.278 7.741L6.685 21.736a.214.214 0 00.214.264h7.17a.216.216 0 00.214-.166.216.216 0 000-.098L10.687 7.742a.214.214 0 00-.409 0z"/></svg>火山引擎</div>
+            <div class="partner-badge" style="background:#6366f1;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M5.31 15.756c.172-3.75 1.883-5.999 2.549-6.739-3.26 2.058-5.425 5.658-6.358 8.308v1.12C1.501 21.513 4.226 24 7.59 24a6.59 6.59 0 002.2-.375c.353-.12.7-.248 1.039-.378.913-.899 1.65-1.91 2.243-2.992-4.877 2.431-7.974.072-7.763-4.5l.002.001z" fill-opacity=".5"/><path d="M22.57 10.283c-1.212-.901-4.109-2.404-7.397-2.8.295 3.792.093 8.766-2.1 12.773a12.782 12.782 0 01-2.244 2.992c3.764-1.448 6.746-3.457 8.596-5.219 2.82-2.683 3.353-5.178 3.361-6.66a2.737 2.737 0 00-.216-1.084v-.002z"/><path d="M14.303 1.867C12.955.7 11.248 0 9.39 0 7.532 0 5.883.677 4.545 1.807 2.791 3.29 1.627 5.557 1.5 8.125v9.201c.932-2.65 3.097-6.25 6.357-8.307.5-.318 1.025-.595 1.569-.829 1.883-.801 3.878-.932 5.746-.706-.222-2.83-.718-5.002-.87-5.617h.001z"/><path d="M17.305 4.961a199.47 199.47 0 01-1.08-1.094c-.202-.213-.398-.419-.586-.622l-1.333-1.378c.151.615.648 2.786.869 5.617 3.288.395 6.185 1.898 7.396 2.8-1.306-1.275-3.475-3.487-5.266-5.323z" fill-opacity=".5"/></svg>豆包</div>
+            <div class="partner-badge" style="background:#0ea5e9;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M9.917 2c4.906 0 10.178 3.947 8.93 10.58-.014.07-.037.14-.057.21l-.003-.277c-.083-3-1.534-8.934-8.87-8.934-3.393 0-8.137 3.054-7.93 8.158-.04 4.778 3.555 8.4 7.95 8.332l.073-.001c1.2-.033 2.763-.429 3.1-1.657.063-.031.26.534.268.598.048.256.112.369.192.34.981-.348 2.286-1.222 1.952-2.38-.176-.61-1.775-.147-1.921-.347.418-.979 2.234-.926 3.153-.716.443.102.657.38 1.012.442.29.052.981-.2.96.242C17.226 19.632 13.833 22 9.918 22 3.654 22 0 16.574 0 11.737 0 5.947 4.959 2 9.917 2zM9.9 5.3c.484 0 1.125.225 1.38.585 3.669.145 4.313 2.686 4.694 5.444.255 1.838.315 2.3.182 1.387l.083.59c.068.448.554.737.982.516.144-.075.254-.231.328-.47a.2.2 0 01.258-.13l.625.22a.2.2 0 01.124.238 2.172 2.172 0 01-.51.92c-.878.917-2.757.664-3.08-.62-.14-.554-.055-.626-.345-1.242-.292-.621-1.238-.709-1.69-.295-.345.315-.407.805-.406 1.282L12.6 15.9a.9.9 0 01-.9.9h-1.4a.9.9 0 01-.9-.9v-.65a1.15 1.15 0 10-2.3 0v.65a.9.9 0 01-.9.9H4.8a.9.9 0 01-.9-.9l.035-3.239c.012-1.884.356-3.658 2.47-4.134.2-.045.252.13.29.342.025.154.043.252.053.294.701 3.058 1.75 4.299 3.144 3.722l.66-.331.254-.13c.158-.082.25-.131.276-.15.012-.01-.165-.206-.407-.464l-1.012-1.067a8.925 8.925 0 01-.199-.216c-.047-.034-.116.068-.208.306-.074.157-.251.252-.272.326-.013.058.108.298.362.72.164.288.22.508-.31.343-1.04-.8-1.518-2.273-1.684-3.725-.004-.035-.162-1.913-.162-1.913a1.2 1.2 0 011.113-1.281L9.9 5.3zm12.994 8.68c.037.697-.403.704-1.213.591l-1.783-.276c-.265-.053-.385-.099-.313-.147.47-.315 3.268-.93 3.31-.168zm-.915-.083l-.926.042c-.85.077-1.452.24.338.336l.103.003c.815.012 1.264-.359.485-.381zm1.667-3.601h.01c.79.398.067 1.03-.65 1.393-.14.07-.491.176-1.052.315-.241.04-.457.092-.333.16l.01.005c1.952.958-3.123 1.534-2.495 1.285l.38-.148c.68-.266 1.614-.682 1.666-1.337.038-.48 1.253-.442 1.493-.968.048-.106 0-.236-.144-.389-.05-.047-.094-.094-.107-.148-.073-.305.7-.431 1.222-.168zm-2.568-.474c-.135 1.198-2.479 4.192-1.949 2.863l.017-.042c.298-.717.376-2.221 1.337-3.221.25-.26.636.035.595.4zm-7.976-.253c.02-.694 1.002-.968 1.346-.347.01-1.274-1.941-.768-1.346.347z"/></svg>智谱</div>
+            <div class="partner-badge" style="background:#8b5cf6;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M12.604 1.34c.393.69.784 1.382 1.174 2.075a.18.18 0 00.157.091h5.552c.174 0 .322.11.446.327l1.454 2.57c.19.337.24.478.024.837-.26.43-.513.864-.76 1.3l-.367.658c-.106.196-.223.28-.04.512l2.652 4.637c.172.301.111.494-.043.77-.437.785-.882 1.564-1.335 2.34-.159.272-.352.375-.68.37-.777-.016-1.552-.01-2.327.016a.099.099 0 00-.081.05 575.097 575.097 0 01-2.705 4.74c-.169.293-.38.363-.725.364-.997.003-2.002.004-3.017.002a.537.537 0 01-.465-.271l-1.335-2.323a.09.09 0 00-.083-.049H4.982c-.285.03-.553-.001-.805-.092l-1.603-2.77a.543.543 0 01-.002-.54l1.207-2.12a.198.198 0 000-.197 550.951 550.951 0 01-1.875-3.272l-.79-1.395c-.16-.31-.173-.496.095-.965.465-.813.927-1.625 1.387-2.436.132-.234.304-.334.584-.335a338.3 338.3 0 012.589-.001.124.124 0 00.107-.063l2.806-4.895a.488.488 0 01.422-.246c.524-.001 1.053 0 1.583-.006L11.704 1c.341-.003.724.032.9.34zm-3.432.403a.06.06 0 00-.052.03L6.254 6.788a.157.157 0 01-.135.078H3.253c-.056 0-.07.025-.041.074l5.81 10.156c.025.042.013.062-.034.063l-2.795.015a.218.218 0 00-.2.116l-1.32 2.31c-.044.078-.021.118.068.118l5.716.008c.046 0 .08.02.104.061l1.403 2.454c.046.081.092.082.139 0l5.006-8.76.783-1.382a.055.055 0 01.096 0l1.424 2.53a.122.122 0 00.107.062l2.763-.02a.04.04 0 00.035-.02.041.041 0 000-.04l-2.9-5.086a.108.108 0 010-.113l.293-.507 1.12-1.977c.024-.041.012-.062-.035-.062H9.2c-.059 0-.073-.026-.043-.077l1.434-2.505a.107.107 0 000-.114L9.225 1.774a.06.06 0 00-.053-.031zm6.29 8.02c.046 0 .058.02.034.06l-.832 1.465-2.613 4.585a.056.056 0 01-.05.029.058.058 0 01-.05-.029L8.498 9.841c-.02-.034-.01-.052.028-.054l.216-.012 6.722-.012z"/></svg>千问</div>
+            <div class="partner-badge" style="background:#047857;"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M23.748 4.482c-.254-.124-.364.113-.512.234-.051.039-.094.09-.137.136-.372.397-.806.657-1.373.626-.829-.046-1.537.214-2.163.848-.133-.782-.575-1.248-1.247-1.548-.352-.156-.708-.311-.955-.65-.172-.241-.219-.51-.305-.774-.055-.16-.11-.323-.293-.35-.2-.031-.278.136-.356.276-.313.572-.434 1.202-.422 1.84.027 1.436.633 2.58 1.838 3.393.137.093.172.187.129.323-.082.28-.18.552-.266.833-.055.179-.137.217-.329.14a5.526 5.526 0 01-1.736-1.18c-.857-.828-1.631-1.742-2.597-2.458a11.365 11.365 0 00-.689-.471c-.985-.957.13-1.743.388-1.836.27-.098.093-.432-.779-.428-.872.004-1.67.295-2.687.684a3.055 3.055 0 01-.465.137 9.597 9.597 0 00-2.883-.102c-1.885.21-3.39 1.102-4.497 2.623C.082 8.606-.231 10.684.152 12.85c.403 2.284 1.569 4.175 3.36 5.653 1.858 1.533 3.997 2.284 6.438 2.14 1.482-.085 3.133-.284 4.994-1.86.47.234.962.327 1.78.397.63.059 1.236-.03 1.705-.128.735-.156.684-.837.419-.961-2.155-1.004-1.682-.595-2.113-.926 1.096-1.296 2.746-2.642 3.392-7.003.05-.347.007-.565 0-.845-.004-.17.035-.237.23-.256a4.173 4.173 0 001.545-.475c1.396-.763 1.96-2.015 2.093-3.517.02-.23-.004-.467-.247-.588zM11.581 18c-2.089-1.642-3.102-2.183-3.52-2.16-.392.024-.321.471-.235.763.09.288.207.486.371.739.114.167.192.416-.113.603-.673.416-1.842-.14-1.897-.167-1.361-.802-2.5-1.86-3.301-3.307-.774-1.393-1.224-2.887-1.298-4.482-.02-.386.093-.522.477-.592a4.696 4.696 0 011.529-.039c2.132.312 3.946 1.265 5.468 2.774.868.86 1.525 1.887 2.202 2.891.72 1.066 1.494 2.082 2.48 2.914.348.292.625.514.891.677-.802.09-2.14.11-3.054-.614zm1-6.44a.306.306 0 01.415-.287.302.302 0 01.2.288.306.306 0 01-.31.307.303.303 0 01-.304-.308zm3.11 1.596c-.2.081-.399.151-.59.16a1.245 1.245 0 01-.798-.254c-.274-.23-.47-.358-.552-.758a1.73 1.73 0 01.016-.588c.07-.327-.008-.537-.239-.727-.187-.156-.426-.199-.688-.199a.559.559 0 01-.254-.078c-.11-.054-.2-.19-.114-.358.028-.054.16-.186.192-.21.356-.202.767-.136 1.146.016.352.144.618.408 1.001.782.391.451.462.576.685.914.176.265.336.537.445.848.067.195-.019.354-.25.452z"/></svg>DeepSeek</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能 -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">我的技能</h2>
+      <p class="section-subtitle">我所掌握的技术与能力</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a7 7 0 017 7c0 3-2 5-4 6.5S12 18 12 20c0-2 1-2.5 3-4.5s4-4 4-8a7 7 0 00-14 0c0 4 2 6.5 4 8s3 2.5 3 4.5c0-2-1-2.5-3-4.5S7 12 7 9a7 7 0 017-7z"/></svg>
+          </div>
+          <h3>AI 大模型</h3>
+          <p>LLM 应用架构、Prompt Engineering、RAG、Agent 设计</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/><path d="M12 2a7 7 0 017 7" opacity="0.3"/></svg>
+          </div>
+          <h3>系统架构</h3>
+          <p>分布式系统、微服务架构、高并发设计、技术选型</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </div>
+          <h3>摄影视觉</h3>
+          <p>商业摄影、影像后期、视觉叙事、构图与光影</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/><path d="M14 4l-4 16"/></svg>
+          </div>
+          <h3>工程开发</h3>
+          <p>Python, Go, Docker, Kubernetes, CI/CD, 云原生</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品展示 -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">精选作品</h2>
+      <p class="section-subtitle">部分项目展示</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="white" opacity="0.7"><path d="M4 4h16v16H4z" fill="none" stroke="white" stroke-width="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>企业级 AI 助手平台</h3>
+            <p>基于大语言模型的企业知识库问答系统，支持多轮对话、文档检索与精准回答，服务超过 10 万用户。</p>
+            <div class="project-tags">
+              <span>LLM</span><span>RAG</span><span>Python</span><span>向量数据库</span>
+            </div>
+            <div class="project-links">
+              <a href="#">查看详情</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="white" opacity="0.7"><path d="M4 4h16v16H4z" fill="none" stroke="white" stroke-width="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AI Agent 自动化工作流</h3>
+            <p>设计并落地多 Agent 协作框架，实现复杂任务的自动拆解与执行，显著提升业务处理效率。</p>
+            <div class="project-tags">
+              <span>Agent</span><span>LangChain</span><span>Go</span><span>分布式</span>
+            </div>
+            <div class="project-links">
+              <a href="#">查看详情</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);">
+              <svg viewBox="0 0 24 24" width="48" height="48" fill="white" opacity="0.7"><path d="M4 4h16v16H4z" fill="none" stroke="white" stroke-width="1.5"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>摄影作品集 · 山河人间</h3>
+            <p>个人摄影创作系列，用镜头记录中国各地的人文风貌与自然景观，作品曾参展山西青年摄影展。</p>
+            <div class="project-tags">
+              <span>摄影</span><span>视觉叙事</span><span>后期制作</span>
+            </div>
+            <div class="project-links">
+              <a href="#">查看作品</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App -->
+  <section class="section apps" id="apps">
+    <div class="container">
+      <h2 class="section-title">我的 App</h2>
+      <p class="section-subtitle">独立开发与维护的 AI 工具</p>
+      <div class="apps-grid">
+        <div class="app-card">
+          <div class="app-icon" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="white" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <div class="app-body">
+            <h3>Agent 集群</h3>
+            <p>多设备并行 AI Agent 框架，基于 Tailscale + Docker + Redis + RabbitMQ，支持笔记本 / MacBook / 手机组建分布式算力网络。</p>
+            <div class="app-tags">
+              <span>Docker</span><span>Redis</span><span>Tailscale</span><span>RabbitMQ</span>
+            </div>
+            <div class="app-links">
+              <a href="https://github.com/zhenliu8870" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </div>
+        </div>
+        <div class="app-card">
+          <div class="app-icon" style="background: linear-gradient(135deg, #0ea5e9, #6366f1);">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="white" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <div class="app-body">
+            <h3>JoyAI-Echo</h3>
+            <p>京东开源分钟级多镜头音视频生成框架，支持文生视频 / 图生视频，基于 LTX-Video 架构，Python 3.11 + CUDA。</p>
+            <div class="app-tags">
+              <span>PyTorch</span><span>AI 视频</span><span>LTX</span><span>CUDA</span>
+            </div>
+            <div class="app-links">
+              <a href="https://github.com/zhenliu8870/JoyAI-Echo" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </div>
+        </div>
+        <div class="app-card">
+          <div class="app-icon" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="white" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8z"/><path d="M12 6a6 6 0 00-6 6c0 3.3 2.7 6 6 6s6-2.7 6-6-2.7-6-6-6zm0 10a4 4 0 114-4 4 4 0 01-4 4z"/></svg>
+          </div>
+          <div class="app-body">
+            <h3>AI 漫剧生成器</h3>
+            <p>全流程 AI 漫剧制作工具，覆盖选题策划、角色设计、分镜脚本、图像生成、视频合成到多平台发布。</p>
+            <div class="app-tags">
+              <span>AI 生图</span><span>视频合成</span><span>TTS</span><span>自动化</span>
+            </div>
+            <div class="app-links">
+              <a href="https://github.com/zhenliu8870" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill -->
+  <section class="section tools" id="tools">
+    <div class="container">
+      <h2 class="section-title">我的 Skill</h2>
+      <p class="section-subtitle">AI 工作流技能包</p>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <div class="tool-icon-line">
+            <div class="tool-icon-dot" style="background:#6366f1;"></div>
+            <div class="tool-icon-bar"></div>
+          </div>
+          <div class="tool-content">
+            <h3>AI 漫剧全流程工作流</h3>
+            <p class="tool-id">ai-manga-workflow</p>
+            <p>6 步闭环工作流：选题策划 → 角色设定 → 分镜脚本 → AI 生图 → 后期合成 → 多平台发布。内置提示词模板库、角色卡/选题卡/分镜脚本模板、抖音/B站/小红书平台发布规格。</p>
+            <div class="tool-tags">
+              <span>WorkBuddy</span><span>Skill</span><span>AI 漫剧</span><span>自动化</span>
+            </div>
+            <div class="tool-meta">
+              <span>已安装</span>
+              <span>v1.0</span>
+            </div>
+          </div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-icon-line">
+            <div class="tool-icon-dot" style="background:#0ea5e9;"></div>
+            <div class="tool-icon-bar"></div>
+          </div>
+          <div class="tool-content">
+            <h3>飞书统一套件</h3>
+            <p class="tool-id">lark-unified</p>
+            <p>200+ 命令覆盖消息、文档、协作、日程等 11 个业务域，支持飞书生态全场景自动化操作。</p>
+            <div class="tool-tags">
+              <span>WorkBuddy</span><span>Skill</span><span>飞书</span><span>协作</span>
+            </div>
+            <div class="tool-meta">
+              <span>已安装</span>
+              <span>v1.0</span>
+            </div>
+          </div>
+        </div>
+        <div class="tool-card">
+          <div class="tool-icon-line">
+            <div class="tool-icon-dot" style="background:#10b981;"></div>
+            <div class="tool-icon-bar"></div>
+          </div>
+          <div class="tool-content">
+            <h3>多模态内容生成</h3>
+            <p class="tool-id">buddy-multimodal-generation</p>
+            <p>文生视频、文生3D、图生3D、图片视频特效，一站式 AI 媒体内容生成能力。</p>
+            <div class="tool-tags">
+              <span>WorkBuddy</span><span>Skill</span><span>视频</span><span>3D</span>
+            </div>
+            <div class="tool-meta">
+              <span>已安装</span>
+              <span>v1.0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 教材 -->
+  <section class="section courses" id="courses">
+    <div class="container">
+      <h2 class="section-title">课程体系</h2>
+      <p class="section-subtitle">从零基础到独立创作的系统化 AI 培训</p>
+      <div class="courses-grid">
+        <div class="course-card course-featured">
+          <div class="course-cover" style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);">
+            <span class="course-badge">明星课程</span>
+            <h3>AI 漫剧制作全流程</h3>
+          </div>
+          <div class="course-body">
+            <p>从零到一掌握 AI 漫剧制作，覆盖选题、角色、分镜、生图、配音、剪辑全链路。配套提示词模板和实战案例。</p>
+            <div class="course-meta-row">
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>零基础可学</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>24 课时</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14h5l-1 8 10-12h-5l1-8z"/></svg>产出 3 部作品</div>
+            </div>
+            <div class="course-outcome">学完后你能：独立完成一部 3-5 分钟 AI 漫剧，并发布到抖音/B站/小红书</div>
+            <details class="course-outline">
+              <summary>查看完整课程大纲</summary>
+              <ol class="outline-list">
+                <li><strong>第1章</strong> AI 漫剧行业认知与工具链搭建 <span class="outline-dur">3课时</span></li>
+                <li><strong>第2章</strong> 选题策划与爆款脚本方法论 <span class="outline-dur">4课时</span></li>
+                <li><strong>第3章</strong> AI 角色设计与一致性控制 <span class="outline-dur">5课时</span></li>
+                <li><strong>第4章</strong> 分镜脚本 + AI 生图实战 <span class="outline-dur">5课时</span></li>
+                <li><strong>第5章</strong> TTS 配音与音效设计 <span class="outline-dur">3课时</span></li>
+                <li><strong>第6章</strong> 视频合成、剪辑与多平台发布 <span class="outline-dur">4课时</span></li>
+              </ol>
+            </details>
+            <div class="course-links">
+              <a href="#trial" class="btn btn-primary btn-sm">免费试学</a>
+            </div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-cover" style="background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 50%, #0ea5e9 100%);">
+            <span class="course-badge" style="background:#0ea5e9;">进阶课</span>
+            <h3>AI Agent 开发入门</h3>
+          </div>
+          <div class="course-body">
+            <p>了解 AI Agent 架构原理，学习如何搭建多设备协作集群，手把手教你部署自己的 Agent Worker 节点。</p>
+            <div class="course-meta-row">
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>有一定编程基础</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>16 课时</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14h5l-1 8 10-12h-5l1-8z"/></svg>部署 1 个 Agent 系统</div>
+            </div>
+            <div class="course-outcome">学完后你能：独立搭建一个多节点 AI Agent 集群，实现自动化任务协作</div>
+            <div class="course-links">
+              <a href="#trial" class="btn btn-primary btn-sm">咨询详情</a>
+            </div>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="course-cover" style="background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);">
+            <span class="course-badge" style="background:#f59e0b;">进阶课</span>
+            <h3>AI 视频生成实战</h3>
+          </div>
+          <div class="course-body">
+            <p>基于 JoyAI-Echo 等开源框架，深入浅出讲解 AI 视频生成技术，包含镜头设计、音画同步等核心技巧。</p>
+            <div class="course-meta-row">
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>有 AI 基础</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>20 课时</div>
+              <div class="course-meta-item"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14h5l-1 8 10-12h-5l1-8z"/></svg>产出 5 条视频</div>
+            </div>
+            <div class="course-outcome">学完后你能：熟练使用 AI 生成商业级短视频，覆盖口播/产品展示/创意内容</div>
+            <div class="course-links">
+              <a href="#trial" class="btn btn-primary btn-sm">咨询详情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 免费试学 -->
+  <section class="section trial" id="trial">
+    <div class="container">
+      <div class="trial-banner">
+        <div class="trial-content">
+          <h2 class="trial-title">免费领取 AI 入门资料包</h2>
+          <p class="trial-desc">
+            包含 AI 漫剧制作入门指南、提示词模板合集、AI 工具推荐清单。添加微信即可免费获取，零门槛体验 AI 创作。
+          </p>
+          <div class="trial-actions">
+            <div class="trial-qr">
+              <img src="assets/images/二维码.jpg" alt="微信扫码领取" class="trial-qr-img" loading="lazy" />
+              <span class="trial-qr-hint">微信扫码领取</span>
+            </div>
+            <div class="trial-highlights">
+              <div class="trial-highlight">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                回复 <strong>「AI漫剧」</strong> 免费领取入门指南
+              </div>
+              <div class="trial-highlight">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                回复 <strong>「AI学习」</strong> 免费领取AI快速入门资料
+              </div>
+              <div class="trial-highlight">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                回复 <strong>「试听」</strong> 免费观看一节试听课
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <p class="section-subtitle">有任何问题或合作意向，欢迎随时联系</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>地址</h4>
+              <p>山西 吕梁</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            </div>
+            <div>
+              <h4>邮箱</h4>
+              <p>zhenliu1486@outlook.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>电话</h4>
+              <p>173 3508 4342</p>
+            </div>
+          </div>
+          <div class="contact-qr">
+            <img
+              src="assets/images/二维码.jpg"
+              alt="微信扫码联系"
+              class="qr-code"
+              loading="lazy"
+            />
+            <p class="qr-hint">回复「AI漫剧」领入门指南<br>回复「AI学习」领快速入门资料</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="您的姓名" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="您的邮箱" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="主题" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="您的留言" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">发送消息</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-company">杭州幻流数字科技有限公司</p>
+      <div class="footer-contact">
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg> 173 3508 4342</span>
+        <span><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg> zhenliu1486@outlook.com</span>
+      </div>
+      <p class="footer-links">
+        <a href="#hero">首页</a> ·
+        <a href="#about">创始人</a> ·
+        <a href="#courses">课程</a> ·
+        <a href="#trial">免费试学</a> ·
+        <a href="#contact">联系</a>
+      </p>
+      <p>&copy; 2026 杭州幻流数字科技有限公司. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
